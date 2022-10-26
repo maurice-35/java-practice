@@ -20,7 +20,7 @@ class Family {
   class Son extends Father {
   void school() {System.out.println("schooling...");}
   }
-  class TestInheritance2 {
+  class TestInheritance {
   public static void main(String args[]) {
   Son s=new Son();
   s.rent();
@@ -29,4 +29,3 @@ class Family {
   }
   }
   
-

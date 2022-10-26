@@ -1,13 +1,9 @@
-// import java.lang.String;
-// import java.lang.System;
-
 class Company{
   float salary=70000;
 }
 
 class Director extends Company{
   int bonus=30000;
-
   public static void main(String args[]){
     Director d=new Director();
     System.out.println("Director salary is:" + d.salary);

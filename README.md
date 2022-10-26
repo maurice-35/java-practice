@@ -1,3 +1,5 @@
 # java-practice
 
-Example of Inheritance and Multilevel Inheritance.
+- Example of Inheritance  
+- Multilevel Inheritance.
+- Hierarchical Inheritance.

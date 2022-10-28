@@ -1,9 +1,9 @@
 public class Student {
-private String studentId;
+private int studentId;
 private String studentName;
 private String collegeName;
 private String address;
-public String getStudentId(){
+public int getStudentId(){
 	return studentId;
 }
 public String getStudentName(){
@@ -15,8 +15,7 @@ public String getCollegeName(){
 public String getAddress(){
 	return address;
 }
-
-public void setStudentId(String studentId){
+public void setStudentId(int studentId){
 	this.studentId=studentId;
 }
 public void setStudentName(String studentName){
@@ -33,10 +32,11 @@ public void address(String address){
 class Test{
 public static void main(String[] args){
 Student s=new Student();
-s.setStudentId("13");
-System.out.println(s.getStudentName());
-s.setStudentName("Tim Baker");
+
+s.setStudentId(13);
 System.out.println(s.getStudentId());
+s.setStudentName("Tim Baker");
+System.out.println(s.getStudentName());
 s.setCollegeName("Secret Heart");
 System.out.println(s.getCollegeName());
 s.address("20 Long Street, London, E10 2WW");

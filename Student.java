@@ -37,7 +37,7 @@ s.setStudentId(13);
 System.out.println(s.getStudentId());
 s.setStudentName("Tim Baker");
 System.out.println(s.getStudentName());
-s.setCollegeName("Secret Heart");
+s.setCollegeName("Secret Heart College");
 System.out.println(s.getCollegeName());
 s.address("20 Long Street, London, E10 2WW");
 System.out.println(s.getAddress());
